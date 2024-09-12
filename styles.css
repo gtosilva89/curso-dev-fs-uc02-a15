@@ -51,6 +51,10 @@ body figcaption {
     margin-top: 1.5px;
     color: black;
     padding-top: 10px;
+
+    &:hover {
+        background-color: #28A745;
+    }
 }
 
 #menu ul {
@@ -70,7 +74,7 @@ body figcaption {
     font-weight: 700;
 
     &:hover {
-        color: #28A745;
+        color: white;
         text-decoration: underline;
     }
 
