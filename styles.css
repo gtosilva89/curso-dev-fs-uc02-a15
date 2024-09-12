@@ -26,6 +26,7 @@ dd {
 body {
     font-family: "Albert Sans", Arial, Helvetica, sans-serif;
     width: 70vw;
+    /* view widht*/
     max-width: 70vw;
     height: auto;
     background-color: #f5f5dc;
