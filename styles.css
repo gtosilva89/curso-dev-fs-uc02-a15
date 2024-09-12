@@ -28,12 +28,12 @@ body {
     width: 1000px;
     height: auto;
     max-width: 1000px;
-    background-color: #F8F9FA;
+    background-color: #f5f5dc;
     margin: 0 auto;
 }
 
 body h1 {
-    color: white;
+    color: #333;
     line-height: 1.5;
 }
 
@@ -44,7 +44,7 @@ body figcaption {
 #menu {
     width: 100%;
     height: 70px;
-    background-color: #F8F9FA;
+    background-color: #d2b48c;
     border: 2px solid #000;
     border-radius: 10px;
     margin-bottom: 1.5px;
@@ -53,7 +53,7 @@ body figcaption {
     padding-top: 10px;
 
     &:hover {
-        background-color: #28A745;
+        background-color: #8d4513;
     }
 }
 
@@ -69,7 +69,7 @@ body figcaption {
 
 #menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: #333;
     font-size: 30px;
     font-weight: 700;
 
@@ -83,7 +83,7 @@ body figcaption {
 #titulo {
     width: 100%;
     height: auto;
-    background-color: #28A745;
+    background-color: #8fbc8f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +91,19 @@ body figcaption {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 1.5px;
+
+    &:hover {
+        background-color: #556B2F;
+    }
 }
 
 #titulo h1 {
     text-align: center;
+
+    &:hover {
+        color: white;
+        text-decoration: underline;
+    }
 }
 
 #titulo img {
@@ -108,7 +117,7 @@ body figcaption {
 #conteudo {
     width: 100%;
     height: auto;
-    background-color: #28A745;
+    background-color: #8fbc8f;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 10px 60px;
@@ -116,17 +125,26 @@ body figcaption {
     margin-bottom: 1.5px;
     line-height: 1.5;
     text-align: justify;
+
+    &:hover {
+        background-color: #556B2F;
+    }
 }
 
 #conteudo h2 {
     text-align: center;
-    color: white;
+    color: #333;
+
+    &:hover {
+        color: white;
+        text-decoration: underline;
+    }
 }
 
 #preparo {
     width: 100%;
     height: auto;
-    background-color: #28A745;
+    background-color: #8fbc8f;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 0 60px;
@@ -134,9 +152,18 @@ body figcaption {
     margin-bottom: 2.5px;
     line-height: 1.5;
     text-align: justify;
+
+    &:hover {
+        background-color: #556B2F;
+    }
 }
 
 #preparo h2 {
     text-align: center;
-    color: white;
+    color: #333;
+
+    &:hover {
+        color: white;
+        text-decoration: underline;
+    }
 }
