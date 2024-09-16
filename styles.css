@@ -175,7 +175,39 @@ body figcaption {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
+    body {
+        width: 80vw;
+        max-width: 80vw;
+    }
+
+    #menu ul {
+        gap: auto;
+    }
+
+    #menu ul li a {
+        font-size: 35px;
+    }
+
+    #titulo img {
+        width: 100%;
+    }
+
+    #titulo h1 {
+        font-size: 25px;
+    }
+
+    #receita {
+        gap: 2;
+    }
+
+    #conteudo,
+    #preparo {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1024px) {
     body {
         width: 100vw;
         max-width: 100vw;
